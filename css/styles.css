@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500');
+
+body {
+    background-image: linear-gradient(to right top, #f4f1d7, #f5f2d8, #f5f3d8, #f6f3d9, #f6f4da);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    align-items: center;
+    font-family: "Quicksand";
+    font-weight: 100;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #222222;
+    margin: 0 1%;
+    transition: all .2s;
+}
+
+nav a:hover {
+    border-bottom: 4px solid rgba(56, 92, 133);
+}
+
+header {
+    display: flex;
+    padding: 2% 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#bitmoji {
+    display: flex;
+}
+
+#bitmoji img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgba(56, 92, 133, 0.5);
+    border-radius: 50%;
+    transition: border .2s, height .2s, width .2s;
+}
+
+#bitmoji img:hover {
+    width: 146px;
+    height: 146px;
+    border: 4px solid rgba(56, 92, 133, .8);
+}
+
+#title-text {
+    padding-left: 2%;
+    font-family: "Quicksand";
+    letter-spacing: 3px;
+}
+
+#title-text h1 {
+    font-size: 28px;
+}
+
+#title-text p {
+    padding-left: 10%;
+    font-weight: 100;
+}
+
+#bio {
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+}
+
+#bio-text {
+    width: 70%;
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: 1px solid;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-title {
+    padding-top: 2%;
+    width: 70%;
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.sub-title h2 {
+    font-weight: 100;
+    font-size: 34px;
+    color: #333333;
+}
+
+.sub-text {
+    transition: all .2s;
+}
+
+.sub-text:hover {
+    border-bottom: 4px solid rgba(56, 92, 133);
+}
+
+#skills-icons {
+    width: 70%;
+    text-align: center;
+}
+
+#skills i {
+    margin: 2% 2%;
+    color: rgba(56, 92, 133, 0.5);
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project-list {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(10px, auto);
+}
+
+.project-text {
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-icon i {
+    margin-left: 2%;
+    color: rgba(56, 92, 133, 0.5);
+    transition: all .2s;
+}
+
+.link-icon i:hover {
+    color: rgba(56, 92, 133, 1);
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-icons {
+    width: 70%;
+    text-align: center;
+}
+
+#contact i {
+    margin: 2% 2%;
+    color: rgba(56, 92, 133, 0.5);
+    transition: all .2s;
+}
+
+#contact i:hover {
+    color: rgba(56, 92, 133, 1);
+}
+
+footer {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 100;
+}
