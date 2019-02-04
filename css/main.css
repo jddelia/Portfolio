@@ -62,7 +62,7 @@ header {
 
 #title-text p {
     padding-left: 10%;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #bio {
@@ -98,7 +98,7 @@ header {
 }
 
 .sub-title h2 {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 34px;
     color: #333333;
 }
@@ -137,8 +137,8 @@ header {
 .project-text {
     text-align: center;
     font-family: "Quicksand";
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .link {
