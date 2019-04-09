@@ -33,7 +33,12 @@ header {
 }
 
 #bitmoji {
-    display: flex;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 #bitmoji img {
@@ -41,6 +46,42 @@ header {
     height: 150px;
     border: 2px solid rgba(56, 92, 133, 0.5);
     border-radius: 50%;
+}
+
+#bitmoji a {
+    text-decoration: none;
+}
+
+.contact-me {
+    background: #c72b10dc;
+    border: 1px solid #c72b10;
+    border-radius: 2px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "Quicksand";
+    letter-spacing: 2px;
+    color: #ffffff;
+    animation: shake .2s linear 2;
+    transition: all .2s;
+}
+  
+@keyframes shake {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.contact-me:hover {
+    transform: scale(1.1);
 }
 
 #title-text {
@@ -242,6 +283,41 @@ footer p {
     
     #bitmoji {
         display: flex;
+    }
+
+    .contact-me {
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        background: #c72b10;
+        border: 1px solid #c72b10;
+        border-radius: 2px;
+        height: 40px;
+        width: 100px;
+        font-size: 16px;
+        font-family: "Quicksand";
+        letter-spacing: 2px;
+        color: #ffffff;
+        animation: shake .2s linear 2;
+        transition: all .2s;
+    }
+      
+    @keyframes shake {
+        0% {
+            transform: rotate(10deg);
+        }
+    
+        50% {
+            transform: rotate(-5deg);
+        }
+    
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    
+    .contact-me:hover {
+        transform: scale(1.1);
     }
 
     #title-text {
