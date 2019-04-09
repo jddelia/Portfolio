@@ -62,7 +62,7 @@ header {
     font-family: "Quicksand";
     letter-spacing: 2px;
     color: #ffffff;
-    animation: shake .2s linear 2;
+    animation: shake .2s linear 3;
     transition: all .2s;
 }
   
